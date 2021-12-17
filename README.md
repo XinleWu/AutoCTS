@@ -12,7 +12,7 @@ AutoCTS is implemented on several public correlated time series forecasting data
 
 - **PEMS03**, **PEMS04**, **PEMS07** and **PEMS08** from [STSGCN (AAAI-20)](https://github.com/Davidham3/STSGCN).
 Download the data [STSGCN_data.tar.gz](https://pan.baidu.com/s/1ZPIiOM__r1TRlmY4YGlolw) with password: `p72z` and uncompress data file using`tar -zxvf data.tar.gz`
-
+To run AutoCTS on the PEMS03 dataset, you only need to download the [PEMS03_data.csv](https://drive.google.com/file/d/1rJwVmQTAoOmmR5l6iQGRwT__tHjQeGn6/view?usp=sharing) and put it into the data/pems/PEMS03 folder.
 
 - **Solar-Energy** and **Electricity** datasets from [https://github.com/laiguokun/multivariate-time-series-data](https://github.com/laiguokun/multivariate-time-series-data). Uncompress them and move them to the data folder.
 
