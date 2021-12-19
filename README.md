@@ -2,6 +2,8 @@
 
 This is the original pytorch implementation of AutoCTS in the following paper: AutoCTS: Automated Correlated Time Series Forecasting.
 
+This code is based on the implementation of [PC-Darts](https://github.com/yuhuixu1993/PC-DARTS).
+
 ## Requirements
 - python 3
 - see `requirements.txt`
@@ -22,3 +24,16 @@ To run AutoCTS on the PEMS03 dataset, you only need to download the [PEMS03_data
 ```
 CUDA_VISIBLE_DEVICES=0 python3 train_search.py
 ```
+
+# Reference
+
+If you use the benchmark data for your research, please cite the following paper. 
+<pre>     
+@article{wu2022autocts,
+  title={AutoCTS: Automated Correlated Time Series Forecasting},
+  author={Xinle Wu and Dalin Zhang and Chenjuan Guo and Chaoyang He and Bin Yang and Christian S. Jensen},
+  year={2022},
+  journal={Proceedings of the VLDB Endowment},
+  volume={4}
+}
+</pre>   
