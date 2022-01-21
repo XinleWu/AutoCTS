@@ -27,12 +27,13 @@ CUDA_VISIBLE_DEVICES=0 python3 train_search.py
 
 # Reference
 
-If you use the benchmark data for your research, please cite the following paper. 
+If you use AutoCTS for your research, please cite the following paper. 
 <pre>     
 @article{wu2022autocts,
   title={AutoCTS: Automated Correlated Time Series Forecasting},
   author={Xinle Wu and Dalin Zhang and Chenjuan Guo and Chaoyang He and Bin Yang and Christian S. Jensen},
   year={2022},
+  pages={971--983}
   journal={Proceedings of the VLDB Endowment},
   volume={4}
 }
